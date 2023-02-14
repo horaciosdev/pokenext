@@ -1,0 +1,22 @@
+import Image from "next/image";
+import styles from "../styles/About.module.css";
+
+export default function About() {
+  return (
+    <div className={styles.about}>
+      <h1>Sobre o projeto</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ex
+        repellat fugiat quos necessitatibus doloremque laborum est cupiditate
+        dolore veniam eligendi, eaque corporis minus dolores nemo explicabo,
+        iure vel neque?
+      </p>
+      <Image
+        src="/images/charizard.png"
+        width={300}
+        height={300}
+        alt="Charizard"
+      />
+    </div>
+  );
+}
