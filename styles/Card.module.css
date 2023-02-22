@@ -4,8 +4,8 @@
   align-items: center;
   flex-direction: column;
   padding: 2em 1em;
-  margin-bottom: 2em;
   width: 23%;
+  min-width: 230px;
   border-radius: 1em;
   border: 2px solid #e33d33;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
